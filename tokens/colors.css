@@ -1,0 +1,58 @@
+/**
+ * Premier Cloud color tokens as CSS custom properties.
+ * See ../docs/brand-guidelines.md for full usage rules and rationale.
+ */
+:root {
+  /* Brand */
+  --pc-deep-blue: #1E66AB;      /* primary */
+  --pc-sky-blue: #38B4E7;       /* secondary/accent */
+  --pc-canvas: #F8F9FA;
+
+  /* Extended blue family */
+  --pc-blue-deepest: #0944A1;
+  --pc-blue-mid: #2C6AB1;
+  --pc-blue-mid-alt: #3875B4;
+  --pc-blue-link: #1A73E8;
+  --pc-blue-bright: #007DE3;
+  --pc-sky-bright: #3CB5E8;
+  --pc-sky-bright-alt: #39BAEC;
+
+  /* Gradients */
+  --pc-gradient-dark: linear-gradient(135deg, #033552 0%, #000000 100%);
+  --pc-gradient-blue: linear-gradient(135deg, #38B4E7 0%, #1E66AB 100%);
+
+  /* Tinted surfaces */
+  --pc-tint-lavender: #E6EAF8;
+  --pc-tint-pale: #F3F6FC;
+  --pc-tint-50: #E8F0FE;
+  --pc-tint-100: #D2E3FC;
+  --pc-tint-ice: #E2F3FC;
+
+  /* Neutrals */
+  --pc-text: #202124;
+  --pc-text-2: #5F6368;
+  --pc-text-slate: #333333;
+  --pc-muted: #595959;
+  --pc-steel: #9E9E9E;
+  --pc-on-dark-2: #BDC1C6;
+  --pc-on-dark-3: #AEB3B7;
+  --pc-border: #DADCE0;
+  --pc-surface: #E8EAED;
+  --pc-surface-2: #F1F3F4;
+  --pc-near-white: #FAFAFA;
+  --pc-white: #FFFFFF;
+
+  /* Semantic */
+  --pc-positive: #34A853;   /* pricing / positive figures ONLY */
+  --pc-link: #1A73E8;
+
+  /* Google accent set — small accents only, never the dominant identity */
+  --gc-blue: #4285F4;
+  --gc-red: #EA4335;
+  --gc-green: #34A853;
+  --gc-yellow: #FBBC04;
+
+  /* Typography */
+  --pc-font-logo: 'Syncopate', sans-serif;                         /* logo lockup ONLY */
+  --pc-font: 'Google Sans', 'Google Sans Text', Arial, sans-serif; /* everything else; Arial = fallback only */
+}

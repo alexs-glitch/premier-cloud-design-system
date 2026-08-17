@@ -1,0 +1,19 @@
+{
+  "fonts": {
+    "logo": { "family": "Syncopate", "usage": "Logo lockup ONLY — never body or headings", "fallback": "Arial" },
+    "body": { "family": "Google Sans", "usage": "Everything else: display, headings, body, UI, captions", "fallback": ["Google Sans Text", "Arial"] }
+  },
+  "rule": "Two typefaces only. Arial is a technical fallback when Google Sans is unavailable — not a brand font. Never use Poppins, Outfit, Roboto, or Calibri.",
+  "scale16x9": {
+    "displayTitle": { "size": "40-56pt", "weight": "bold", "colorLight": "#202124", "colorDark": "#FFFFFF" },
+    "sectionHead": { "size": "28-36pt", "weight": "bold/medium", "color": "#1E66AB or #202124" },
+    "cardTitle": { "size": "18-22pt", "weight": "medium/bold", "color": "#202124" },
+    "body": { "size": "12-16pt", "weight": "regular", "color": "#3C4043 / #5F6368" },
+    "caption": { "size": "9-11pt", "weight": "regular", "color": "#5F6368 / #595959" }
+  },
+  "subheadColorConvention": {
+    "onDark": { "color": "#38B4E7", "example": "section labels/eyebrows on dark backgrounds" },
+    "onLight": { "color": "#1E66AB", "example": "section headers, lettered list headers (A./B./C.) on white" }
+  },
+  "emphasisPattern": "In a heading, bold the key word and leave the rest regular — e.g. '**Benefits** of Working with Premier Cloud.'"
+}

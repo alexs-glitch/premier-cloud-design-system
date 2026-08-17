@@ -1,0 +1,59 @@
+{
+  "$schema": "Premier Cloud color design tokens — see docs/brand-guidelines.md for usage rules",
+  "brand": {
+    "deepBlue": { "value": "#1E66AB", "role": "primary" },
+    "skyBlue": { "value": "#38B4E7", "role": "secondary/accent" },
+    "canvas": { "value": "#F8F9FA", "role": "default light background" }
+  },
+  "blueFamily": {
+    "deepest": { "value": "#0944A1" },
+    "mid": { "value": "#2C6AB1" },
+    "midAlt": { "value": "#3875B4" },
+    "link": { "value": "#1A73E8" },
+    "bright": { "value": "#007DE3" },
+    "sky": { "value": "#38B4E7" },
+    "skyBright": { "value": "#3CB5E8" },
+    "skyBrightAlt": { "value": "#39BAEC" }
+  },
+  "gradients": {
+    "dark": { "from": "#033552", "to": "#000000", "angle": 135, "usage": "title/section/closing hero backgrounds" },
+    "blue": { "from": "#38B4E7", "to": "#1E66AB", "angle": 135, "usage": "highlighted cards, panels, the cover banner" }
+  },
+  "tintedSurfaces": {
+    "lavender": { "value": "#E6EAF8", "usage": "page background framing a panel" },
+    "pale": { "value": "#F3F6FC", "usage": "card fills, alternating rows" },
+    "tint50": { "value": "#E8F0FE", "usage": "chips/tags, tinted rows" },
+    "tint100": { "value": "#D2E3FC", "usage": "selected/hover on light" },
+    "ice": { "value": "#E2F3FC", "usage": "very light accent wash" }
+  },
+  "neutrals": {
+    "textPrimary": { "value": "#202124" },
+    "textSecondary": { "value": "#5F6368" },
+    "textSlate": { "value": "#333333" },
+    "muted": { "value": "#595959" },
+    "steel": { "value": "#9E9E9E" },
+    "onDark2": { "value": "#BDC1C6" },
+    "onDark3": { "value": "#AEB3B7" },
+    "border": { "value": "#DADCE0" },
+    "surface": { "value": "#E8EAED" },
+    "surface2": { "value": "#F1F3F4" },
+    "nearWhite": { "value": "#FAFAFA" },
+    "white": { "value": "#FFFFFF" }
+  },
+  "semantic": {
+    "positive": { "value": "#34A853", "usage": "positive figures, pricing, success states ONLY" },
+    "link": { "value": "#1A73E8" }
+  },
+  "googleAccentSet": {
+    "note": "Small accents only — never the dominant identity, never as scattered per-card dots.",
+    "blue": { "value": "#4285F4" },
+    "red": { "value": "#EA4335" },
+    "green": { "value": "#34A853" },
+    "yellow": { "value": "#FBBC04" },
+    "usage": ["four-color divider bar / title underline", "product hex icons", "functional category bands in offering cards", "green doubles as pricing/positive-figure color"]
+  },
+  "dataViz": {
+    "order": ["#1E66AB", "#38B4E7", "#4285F4", "#34A853", "#FBBC04", "#EA4335", "#5F6368"],
+    "note": "Blue-first, Premier identity leading. Never use #FBBC04 as text or thin lines on white."
+  }
+}
